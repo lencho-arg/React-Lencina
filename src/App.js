@@ -1,15 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import Home from './components/Paginas/Home';
+import Souvenirs from './components/Paginas/Souvenirs';
+import Cuadros from './components/Paginas/Cuadros';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
+      
         <NavBar />
 
-      </header>
+        <h1>Página de Inicio</h1>
+
     </div>
   );
 }
